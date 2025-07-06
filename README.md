@@ -31,4 +31,3 @@ python main.py
 
 - Console shows accuracy for each model
 - `model_comparison.png` shows a bar chart
-- BERT classification report printed in full
