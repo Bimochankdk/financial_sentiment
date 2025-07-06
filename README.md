@@ -1,4 +1,4 @@
-# 🧠 Financial Sentiment Analysis
+# Financial Sentiment Analysis
 
 This project compares four NLP models on a financial sentiment dataset using the:
 
@@ -6,8 +6,8 @@ This project compares four NLP models on a financial sentiment dataset using the
 - GRU (TensorFlow)
 - Transformer (TensorFlow)
 - BERT (Hugging Face)
-
-## 📁 Structure
+  The Dataset is taken from Kaggle.
+## Structure
 
 - `main.py`: Entry point, trains and compares all models
 - `models/`: Contains implementation of each model
@@ -15,19 +15,19 @@ This project compares four NLP models on a financial sentiment dataset using the
 - `utils.py`: Evaluation and plotting
 - `financial_sentiment.csv`: Input dataset (3 sentiment classes)
 
-## 📦 Install
+## Install
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🚀 Run
+## Run
 
 ```bash
 python main.py
 ```
 
-## 📊 Output
+## Output
 
 - Console shows accuracy for each model
 - `model_comparison.png` shows a bar chart
